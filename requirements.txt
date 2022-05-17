@@ -1,6 +1,7 @@
 torch==1.11.1
 tqdm==4.58.0
 torchvision==0.11.2
+tensorboard==2.4.1
 plotly==4.14.3
 atari-py==0.2.6
 gym[atari]
