@@ -6,3 +6,7 @@ How to run training for Pong games with DQN.
 To show training progress run tensorboard from logdir:
 
 tensoboard --logdir /data/zabolotny-av/RL/logs --port 8991 --bind_all
+
+EXAMPLE OF TRAINED MODEL:
+
+![game_vis](https://github.com/zaaabik/RL/blob/main/model_130_game_vis.gif?raw=true)
