@@ -1,6 +1,7 @@
 How to run training for Pong games with DQN.
 1) pip install -r requirements.txt
-2) run notebook 
+2) run notebook for training: when_should_agents_explore-TRAINING.ipynb
+3) run notebook for game visualization: when_should_agents_explore-REPLAY.ipynb
 
 To show training progress run tensorboard from logdir:
 
