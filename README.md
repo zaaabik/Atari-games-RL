@@ -12,8 +12,6 @@ Epsilon greedy with exponential decay plot.
 
 Experiments using Atari learning environment for three games: Pong, BeamRider and Breakout.
 
-
-
 Pong results:
 
 ![pong](https://raw.githubusercontent.com/zaaabik/RL/main/assets/reward_different_strategy_pong.jpeg)
@@ -27,6 +25,17 @@ Breakout results:
 ![breakout](https://raw.githubusercontent.com/zaaabik/RL/main/assets/reward_different_strategy_break_out.jpeg)
 
 
+Results summary:
+1) For pong game, we
+find that only explore strategy does not work at all in case,
+while e − greedy strategies show the best result.
+2)  Beamrider game shows
+the best results when we use the only-policy strategy of
+exploitation, and all other methods get approximate equal
+results.
+3) Breakout game becomes hard for our model
+stuck in a situation where a player should press the special
+button after losing the life
 
 -------------------------------------------------------
 How to run training DQN for atari game.
