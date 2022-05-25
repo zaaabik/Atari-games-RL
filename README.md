@@ -38,7 +38,7 @@ stuck in a situation where a player should press the special
 button after losing the life
 
 -------------------------------------------------------
-How to run training DQN for atari game.
+How to run training DQN for atari game.  Does not work for windows :((((
 1) pip install -r requirements.txt
 2) Choose the game: BeamRiderNoFrameskip-v4, PongNoFrameskip-v4, BreakoutNoFrameskip-v4
 3) Choose exploration/explotation strategy: eps_greedy, eps_greedy_decay, only_explore, only_strategy
