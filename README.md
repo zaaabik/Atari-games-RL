@@ -1,3 +1,34 @@
+This repository show research in direction of exploration/exploitation in Reinforsment learning.
+In our project we apply 4 blind ε-greedy strategy of switching between exploration/exploitation:
+
+* Only explore strategy ε = 1
+* Only policy ε = 0
+* Epsilon greedy ε = 1
+* Epsilon greedy with exponential decay 
+
+
+Epsilon greedy with exponential decay plot.
+
+
+Experiments using Atari learning environment for three games: Pong, BeamRider and Breakout.
+
+
+
+Pong results:
+
+![pong](https://raw.githubusercontent.com/zaaabik/RL/main/assets/reward_different_strategy_pong.jpeg)
+
+BeamRider results:
+
+![beamrider](https://raw.githubusercontent.com/zaaabik/RL/main/assets/reward_different_strategy_beam_rider.jpeg)
+
+Breakout results:
+
+![breakout](https://raw.githubusercontent.com/zaaabik/RL/main/assets/reward_different_strategy_break_out.jpeg)
+
+
+
+-------------------------------------------------------
 How to run training DQN for atari game.
 1) pip install -r requirements.txt
 2) Choose the game: BeamRiderNoFrameskip-v4, PongNoFrameskip-v4, BreakoutNoFrameskip-v4
