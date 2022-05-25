@@ -180,7 +180,7 @@ class Agent:
         self.GAMMA = 0.99
 
         self.eps_threshold, self.eps_decay, self.eps_min = get_eps_params_from_mode(MODE)
-        self.base_path = f'/data/zabolotny-av/when_should_agents_explore/{GAME_NAME}/{MODE}/' +str(datetime.now())
+        self.base_path = f'logs/when_should_agents_explore/{GAME_NAME}/{MODE}/' +str(datetime.now())
         self.log_path = os.path.join(self.base_path, 'tensorboard')
         os.makedirs(self.log_path, exist_ok=False)
         self.writer = SummaryWriter(self.log_path)
